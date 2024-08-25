@@ -45,27 +45,30 @@ docker-express-app/
 
 ## 4. How to Run the Application 🏃‍♂️
 
-1. Clone the repository:
+* Clone the repository:
 
-```bash
+```shell
 git clone https://github.com/patricnilackshan/Docker-Express-App.git
 cd Docker-Express-App
 ```
 
-2. Build and run the application using Docker Compose:
+* Build and run the application using Docker Compose:
 
-```bash
+```shell
 docker-compose up --build
 ```
 
-3. Access the application:
+* Access the application:
 
-- Open your web browser and go to http://localhost:8000 🌐
-- You can also visit http://localhost:8000/PATRIC and http://localhost:8000/USER for different greetings. 🎉
+    - Open your web browser and go to http://localhost:8000 🌐
+    
+    - You can also visit http://localhost:8000/PATRIC and http://localhost:8000/USER for different greetings. 🎉
 
-5. Endpoints
-   GET /: Returns "Hello WORLD" 🌎✨
-   GET /PATRIC: Returns "Hello PATRIC" 👋😄
-   GET /USER: Returns "Hello USER" 👨‍💻🌟
+## 5. Endpoints
 
-# Enjoy your Docker Express App! 🎊😊
+   * GET /: Returns "Hello WORLD" 🌎✨
+
+   * GET /PATRIC: Returns "Hello PATRIC" 👋😄
+
+   * GET /USER: Returns "Hello USER" 👨‍💻🌟
+
